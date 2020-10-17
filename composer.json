@@ -1,0 +1,35 @@
+{
+  "name": "grayl/input-form",
+  "description": "Class for working with forms and form fields",
+  "keywords": [
+    "grayl"
+  ],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Grogwood LLC",
+      "email": "dev@grogwood.com",
+      "homepage": "http://grogwood.com",
+      "role": "Developer"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "grayl/mixin-common": "^1",
+    "php": "~7.4",
+    "ext-openssl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grayl\\Input\\Form\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Grayl\\Test\\Input\\Form\\": "tests/"
+    }
+  }
+}
